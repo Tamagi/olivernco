@@ -1,0 +1,172 @@
+
+
+/*# sourceMappingURL=custom.css.map */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Work+Sans:100,200,300,400,500,600,700,800,900');
+body{
+    font-family:'Work Sans', 'sans-serif';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: black;
+    background-color: transparent;
+}
+p{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+a:hover{
+    text-decoration:none;
+}
+.orange-text{
+    color: #eb871e !important;
+}
+.spacing-text{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    padding-bottom: 50px;
+}
+.title{
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.text{
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+.links {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing:2px;
+    padding: 15px 45px;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+}
+.links:hover{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/*-----------------------------section 1---------------------------*/
+.hero-1{
+    margin-top: -90px;
+    background-image: url("../img/hero-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding: 24vh 0 24vh 0;
+    position: relative;
+    z-index: 11;
+    max-height: 1080px;
+}
+/*-----------------------------section 2---------------------------*/
+.second-section{
+    position: relative;
+    padding: 240px 0px 120px 0px;
+    color: #292C33;
+}
+.second-section p{
+    padding-bottom: 20px !important;
+}
+.second-section .links-box{
+    padding-top: 180px;
+}
+.links-box p{
+    font-size: 21px;
+    line-height: 42px;
+    font-weight: 300;
+    color:#eb871e;
+    padding: 0 !important;
+    cursor: pointer;
+}
+.links-box p:hover{
+    text-decoration: underline;
+}
+.second-section .col-sm-11 p{
+    font-size: 14px;
+    padding: 0 !important;
+}
+.second-section .col-sm-11 a{
+    font-size: 18px;
+    line-height: 34px;
+    color: #c0c0c0 !important;
+}
+.second-section .col-sm-11 a:hover{
+    text-decoration: underline;
+}
+/*-----------------------------section 3---------------------------*/
+.third-section{
+    padding: 240px 0 380px 0;
+    background-image: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.third-section .container{
+    background : rgba(0,0,0,0.8);
+    padding: 40px;
+    position: relative;
+}
+.third-section .links{
+    color: white !important;
+    border: 1px solid white !important;
+}
+.third-section .links:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.flying-pen{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: rotate(-146deg);
+    -webkit-transform: rotate(-146deg);
+    -moz-transform: rotate(-146deg);
+    -ms-transform: rotate(-146deg);
+    -o-transform: rotate(-146deg);
+}
+.flying-pen img{
+    width:270px;
+}
+.flying-phone{
+    position: absolute;
+    top:20px;
+    right:90px;
+    transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+}
+.flying-phone img{
+    height: 360px;
+}
+/*-----------------------------section 4---------------------------*/
+.survei-section{
+    padding: 100px 0px;
+    background-image: url("../img/kuisioner-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    position: relative;
+    z-index: 11;
+}
+.wrap-40{
+    padding: 20px;
+}
